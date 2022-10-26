@@ -1,0 +1,11 @@
+name: Master Action
+
+on: pull_request
+
+jobs:
+  Anodin:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hey I am ${{ github.ref }}"
+      - run: echo "Hey I am from master"
+
