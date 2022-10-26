@@ -7,5 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hey I am ${{ github.ref }}"
-      - run: echo "Hey I am from master"
-      - run: echo "also I am an impostor"
+      - run: echo "lilly was a little girl afraid of the big wide world"
